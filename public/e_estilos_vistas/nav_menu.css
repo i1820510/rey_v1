@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Sansation-light';
+    src: url('../fuentes/Sansation_Light.ttf');
+}
+.opciones {
+    margin-right: -1%;
+}
+.opcion {
+    font-family: 'Sansation-light';
+    font-size: 1.1em;
+    color: #F2F2F2;
+}
+.opcion a {
+    color: #F2F2F2;
+}
+.barra {
+background: #0D0D0D;
+border-radius: 48px 0px 0px 96px;
+}
+
+.navegador{
+    background: #F2A007;
+}
+
+.ico_usuario {
+ width: 30px;
+}
+.ico_carta {
+    width: 30px;
+   }
+
+.iconos {
+    margin-right: -5%; 
+}
+.opc_ico {
+    margin-right: 2%;
+}
+
+.ico {
+    width: 26px;
+}
+
+.logo {
+    width: 120px;
+}

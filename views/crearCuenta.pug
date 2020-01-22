@@ -1,0 +1,32 @@
+form.row.justify-content-center.acceso_content.mt-4
+    .form-group.col-12.col-sm-6.col-md-4.mt-4
+        label(for='InputName') Nombres:
+        input#InputName.form-control(type='input', placeholder='Ingrese sus nombres')
+    .form-group.col-12.col-sm-6.col-md-4.mt-4
+        label(for='InputName') Apellido Paterno:
+        input#InputName.form-control(type='input', placeholder='Ingrese su primer apellido')
+    .form-group.col-12.col-sm-6.col-md-4.mt-4
+        label(for='InputName') Apellido Materno:
+        input#InputName.form-control(type='input', placeholder='Ingrese su segundo apellido')
+    .form-group.col-12.col-sm-6.col-md-4.mt-4
+        label(for='InputName') DNI(opcional):
+        input#InputName.form-control(type='input', placeholder='DNI')
+    .form-group.col-12.col-sm-6.col-md-4.mt-4
+        label(for='exampleInputEmail1') Correo electrónico:
+        input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Ingrese su correo')
+    .form-group.col-12.col-sm-6.col-md-4.mt-4
+        label(for='exampleInputPassword1') Contraseña:
+        input#exampleInputPassword1.form-control(type='password', placeholder='Contraseña')
+    .form-check.col-10.mt-2.text-justify
+        input#exampleCheck1.form-check-input(type='checkbox')
+        label.form-check-label(for='exampleCheck1') Autorizo recibir comunicaciones promocionales y autorizo el uso de mi información para fines adicionales. 
+    .form-check.col-10.mt-2.text-justify
+        input#exampleCheck1.form-check-input(type='checkbox')
+        label.form-check-label(for='exampleCheck1') Declaro que he leído y acepto la nueva Política de Privacidad y los Términos y Condiciones de la Pollería el Rey.
+
+    
+    button(type="submit").col-10.col-sm-6.btn.mt-4.btn_iniciar_sesion Completar registro
+form.row.justify-content-center.inicio_sesion_content.mt-1.mb-2.mt-sm-3
+    button(type="submit").col-10.col-sm-6.col-md-4.btn.mt-1.mt-sm-4.btn_iniciar_sesion_google 
+        img(src="/public/iconos/google.svg", alt="", style="width: 20px;color: #F2F2F2;").mr-3
+        span Google 

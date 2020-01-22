@@ -1,0 +1,121 @@
+link(rel="stylesheet", href="/public/e_estilos_vistas/home.css")
+
+
+
+
+
+div(class="container-fluid")
+
+    //--slider
+    div(class="row")
+        include ./components/slider.pug
+
+    //--Platos representaticos
+
+    div(class="row justify-content-center platos_representativos",)
+        div(class="col-11 col-md-3 m-3 pt-0 plato_representativo", style="text-align:center")
+            div(class="row   h-100 p-1", style="text-align:center")
+                img(class="col-3 col-sm-12 img-fluid pb-2 pt-2", src="public/imagenes/plato2.jpg", alt="", style="width:100%; border-radius: 18px;")
+                span.col-5.col-sm-12.d-inline-block.align-self-center.mt-1.mb-1.mt-sm-3.mb-sm-3.mb-lg-5.pt-lg-5.plato_rep_descrip Plato más representativo
+                div.col-4.col-sm-12.align-self-center.mt-1.mb-1.mt-sm-3.mb-sm-3
+                    div.d-none.d-sm-block
+                        span.btn.btn-danger.pl-5.pr-5.btn_plato_rep  Detalles
+                    div.btn.btn-danger.pl-4.pr-4.btn_plato_rep1 Detalles
+                    div.btn.btn-danger.pl-3.pr-3.btn_plato_rep2
+                        img(src="/public/iconos/detalle.svg", alt="", style="width: 16px;color: #F2F2F2;")
+        div(class="col-11 col-md-3 m-3 pt-0 plato_representativo", style="text-align:center")
+            div(class="row   h-100 p-1", style="text-align:center")
+                img(class="col-3 col-sm-12 img-fluid pb-2 pt-2", src="public/imagenes/plato2.jpg", alt="", style="width:100%; border-radius: 18px;")
+                span.col-5.col-sm-12.d-inline-block.align-self-center.mt-1.mb-1.mt-sm-3.mb-sm-3.mb-lg-5.mt-lg-5.plato_rep_descrip Plato más representativo
+                div.col-4.col-sm-12.align-self-center.mt-1.mb-1.mt-sm-3.mb-sm-3
+                    div.d-none.d-sm-block
+                        span.btn.btn-danger.pl-5.pr-5.btn_plato_rep  Detalles
+                    div.btn.btn-danger.pl-4.pr-4.btn_plato_rep1 Detalles
+                    div.btn.btn-danger.pl-3.pr-3.btn_plato_rep2
+                        img(src="/public/iconos/detalle.svg", alt="", style="width: 16px;color: #F2F2F2;")
+        div(class="col-11 col-md-3 m-3 pt-0 plato_representativo", style="text-align:center")
+            div(class="row   h-100 p-1", style="text-align:center")
+                img(class="col-3 col-sm-12 img-fluid pb-2 pt-2 ", src="public/imagenes/plato2.jpg", alt="", style="width:100%; border-radius: 18px;")
+                span.col-5.col-sm-12.d-inline-block.align-self-center.mt-1.mb-1.mt-sm-3.mb-sm-3.mb-lg-5.mt-lg-5.plato_rep_descrip Plato más representativo
+                div.col-4.col-sm-12.align-self-center.mt-1.mb-1.mt-sm-3.mb-sm-3
+                    div.d-none.d-sm-block
+                        span.btn.btn-danger.pl-5.pr-5.btn_plato_rep  Detalles
+                    div.btn.btn-danger.pl-4.pr-4.btn_plato_rep1 Detalles
+                    div.btn.btn-danger.pl-3.pr-3.btn_plato_rep2
+                        img(src="/public/iconos/detalle.svg", alt="", style="width: 16px;color: #F2F2F2;")
+                        
+        div(class="col-12 p-2 mt-1 mt-md-3", style="text-align:center")
+            a(href="#", class="nav-link nav-item")   Ver todos los platillos +
+         
+
+
+
+
+
+    //--Promociones y ofertas-----------------------------------------------------------------------------------------
+    link(rel="stylesheet", href="/public/e_estilos_vistas/home.css")
+    div(class="row-fluid") 
+
+        //--Promociones----------------------------
+        div(class="col-12 pb-4 pl-2 pr-2 pb-md-4 pl-md-5 pr-md-5 pt-md-4")
+            div(class="row prom_oferta d-none  d-md-flex")
+                div(class="col-md-7 col-lg-7  pt-2 pb-2 pt-md-4 pb-md-4 d-none d-md-block align-self-center ", style="text-align:center")
+                    img(src="public/imagenes/plato2.jpg", alt="", style="width:90%")
+                div(class="col-12 col-md-5 col-lg-5 p-1 p-md-4 descripcion")
+                    div( style="text-align:center", class="row h-100 ")
+                        p(class="col-12 descrip1") Promociones
+                        div(class="col-12")
+                            div(class="d-md-none ", style="text-align:center")
+                                img(src="public/imagenes/plato2.jpg", alt="", style="width:100%; display: flex") 
+                            p(class="descrip2 mt-1 mb-1 mt-sm-3 mb-sm-3 mt-lg-5 mb-lg-5 p-2 p-lg-3 p-xl-5")  
+                                |Por esta navidad
+                                br 
+                                |le ofrecemos unos platillos especiales dignos de un rey, 
+                                |con escencias especiales y agradables, nunca degustadas.
+                            div.btn.btn-danger.pl-4.pr-4.btn_plato_rep.mb-3.mt-3 Saber más
+
+
+            div(class="row-fluid prom_oferta  d-md-none mt-4")
+                div(class="col-12 descripcion")  
+                    p(class="col-12 descrip1 ") Promociones
+                    div(class="row  p-2 justify-content-center")
+                        div(class="col-7  content_descrip3")
+                            p(class="descrip3 mt-3")  
+                                |Vea nuestras grandes promociones
+            
+                        div.col-5.d-inline-block.align-self-center
+                            div.btn.btn-danger.pl-3.pr-3.btn_prom_ofert Saber más
+                            div.btn.btn-danger.pl-4.pr-4.btn_prom_ofert1 +
+
+
+        //--Ofertas----------------------------
+
+        div(class="col-12 pb-4 pl-2 pr-2 pb-md-5 pl-md-5 pr-md-5 pt-md-0") 
+            div(class="row prom_oferta d-none  d-md-flex") 
+                div(class="col-12 col-md-5 col-lg-5 p-1 p-md-4 descripcion")
+                    div( style="text-align:center", class="row h-100 ")
+                        p(class="col-12 descrip1") Ofertas
+                        div(class="col d-md-none ", style="text-align:center")
+                            img(src="public/imagenes/plato2.jpg", alt="", style="width:100%; display: flex") 
+                        div(class="col-12")
+                            p(class="descrip2 mt-1 mb-1 mt-sm-3 mb-sm-3 mt-lg-5 mb-lg-5 p-2 p-lg-3 p-xl-5")  
+                                |Por esta navidad
+                                br 
+                                |le ofrecemos unos platillos especiales dignos de un rey, 
+                                |con escencias especiales y agradables, nunca degustadas.
+                            div.btn.btn-danger.pl-4.pr-4.btn_plato_rep.mb-3.mt-3 Saber más
+                div(class="col-md-7 col-lg-7  pt-2 pb-2 pt-md-4 pb-md-4 d-none d-md-block align-self-center ", style="text-align:center")
+                    img(src="public/imagenes/plato2.jpg", alt="", style="width:90%")
+
+            div(class="row-fluid prom_oferta  d-md-none mt-0")
+                div(class="col-12 descripcion")  
+                    p(class="col-12 descrip1 ") Ofertas
+                    div(class="row  p-2 justify-content-center")
+                        div.col-5.d-inline-block.align-self-center
+                            div.btn.btn-danger.pl-3.pr-3.btn_prom_ofert Saber más
+                            div.btn.btn-danger.pl-4.pr-4.btn_prom_ofert1 +
+                        div(class="col-7  content_descrip3")
+                            p(class="descrip3 mt-3")  
+                                |Vea nuestras grandes ofertas
+            
+

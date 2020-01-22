@@ -1,0 +1,25 @@
+extends ./index.pug
+block contenido
+    link(rel="stylesheet", href="/public/e_estilos_vistas/acceso.css")
+
+    .container-fluid.pt-1.pt-sm-5.mt-5.pb-1.pb-sm-5     
+        .row.justify-content-center
+            .col-12.col-sm-10.col-md-9.col-lg-7.w-100        
+                div-danger
+                    ul.nav.nav-tabs.nav-fill.opciones_acceso
+                        li.nav-item.btn_acceso_content
+                            a.btn_acceso(href="#iniciar", data-component="tab", data-toggle="tab", role="tab").nav-link.active   Iniciar sesion
+                        li.nav-item.btn_acceso_content 
+                            a.btn_acceso(href="#crear", data-component="tab", data-toggle="tab", role="tab").nav-link Crear cuenta
+                .tab-content    
+                    div#iniciar.tab-pane.active
+                        include ./inicioSesion.pug
+
+                    div#crear.tab-pane
+                        include ./crearCuenta.pug
+            
+            
+
+
+
+                

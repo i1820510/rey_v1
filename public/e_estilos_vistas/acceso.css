@@ -1,0 +1,51 @@
+.opciones_acceso{
+    border-bottom: 2px solid #0D0D0D;
+}
+
+
+.btn_acceso {
+  font-family: 'Sansation-light';
+  color: #0D0D0D;  
+  font-weight: 600;
+}
+
+.btn_acceso:hover {
+  color: #0D0D0D;  
+}
+
+.opciones_acceso .btn_acceso:hover, .opciones_acceso .btn_acceso:focus {
+    border-color: #0D0D0D #0D0D0D #0D0D0D;
+  }
+
+  
+  .opciones_acceso .btn_acceso.active,
+  .opciones_acceso .btn_acceso_content.show .btn_acceso {
+    color: #e9ecef;
+    background: #0D0D0D;
+    border-color: #0D0D0D;
+}
+
+/*iniciar sesion - crear */
+.acceso_content {
+  font-family: 'Sansation-Regular';
+}
+
+
+.btn_iniciar_sesion{
+font-family: 'Sansation-light';
+background-color: #0D0D0D;
+color: #F2F2F2;
+border-radius: 0.5em;
+}
+
+.btn_iniciar_sesion:hover{
+  font-family: 'Sansation-Regular';
+  background-color: #0D0D0D;
+  color: #F2A007;
+ }
+
+ .btn_iniciar_sesion_google{
+  font-family: 'Sansation-Regular';
+  background-color: #F2F2F2;
+  border-radius: 0.5em;
+ }

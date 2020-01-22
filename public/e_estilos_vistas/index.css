@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Sansation-light';
+    src: url('../fuentes/Sansation_Light.ttf');
+}
+
+@font-face {
+    font-family: 'Sansation-Regular';
+    src: url('../fuentes/Sansation_Regular.ttf') format('truetype');
+}
+
+html{
+    min-height: 100%;
+}
+.cuerpo {
+
+background: #F2A007;
+}
+
